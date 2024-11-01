@@ -1,0 +1,11 @@
+
+/** front **/
+
+#content .content-area {
+    float: none;
+    margin-right: -100%;
+    width: 100%;
+}
+#wp-forum__wrap {
+    padding: 0 0 30px;
+}

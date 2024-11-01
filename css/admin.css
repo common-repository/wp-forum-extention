@@ -1,0 +1,347 @@
+
+/**
+  Manager
+**/
+
+#dashboard_right_now .inside.users-area {
+    border-right: 1px solid #dedede;
+    float: left;
+    height: 280px;
+    margin-top: 0;
+    overflow-y: scroll;
+    padding-top: 10px;
+    width: 80%;
+}
+#dashboard_right_now .post-manager {
+    border-left: 1px solid #dedede;
+    float: right;
+    height: 280px;
+    margin-top: 0;
+    overflow-y: scroll;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 19%;
+}
+#dashboard_right_now .post-manager .post-contents {
+    border: 1px solid #dedede;
+    margin-top: 10px;
+    padding: 5px;
+    width: 92%;
+    line-height: 15px;
+}
+#dashboard_right_now .post-manager .post-contents.item-0 {
+    margin-top: 0;
+}
+#dashboard_right_now .post-manager .post-contents a {
+    background: rgba(0, 0, 0, 0) url("../images/698983-icon-136-document-edit-16.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-right: 5px;
+    width: 15px;
+}
+#dashboard_right_now .user-manager__list li.item {
+    width: 100%;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 10px;
+}
+.wp-forum__wrap #dashboard-widgets-wrap #dashboard-widgets #postbox-container-1 {
+    width: 90%;
+}
+.user-manager__list li.item .field {
+    float: left;
+    height: auto;
+}
+.user-manager__list li.item .field.label-id {
+    width: 5%;
+    margin-right: 10px;
+}
+.user-manager__list li.item .field.label-login {
+    width: 10%;
+    margin-right: 10px;
+}
+.user-manager__list li.item .field.label-email {
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 20%;
+}
+.user-manager__list li.item .field.label-thumb {
+    padding-right: 10px;
+    margin-right: 10px;
+    width: 5%;
+}
+.user-manager__list li.item .field.label-thumb .thumb-inner {
+    width: 40px;
+    height: 40px;
+}
+.user-manager__list li.item .field.label-thumb .thumb-inner img {
+    width: 100%;
+    height: 100%;
+}
+#dashboard_right_now .user-manager__list li.item .label-id a:before {
+    content: close-quote;
+}
+#dashboard_right_now .user-manager__list li a:before, #dashboard_right_now .user-manager__list li span:before {
+    content: close-quote;
+}
+.user-manager__list li a.users__comments {
+    background: url('../images/icons/Message-16.png');
+    display: inline-block;
+    height: 15px;
+    width: 50px;
+    background-repeat: no-repeat;
+}
+.user-manager__list li a.users__replys {
+    background: url('../images/icons/reply_mail-16.png');
+    display: inline-block;
+    height: 15px;
+    width: 50px;
+    background-repeat: no-repeat;
+}
+.user-manager__list li a.users__likes {
+    background: url('../images/icons/free-22-16.png');
+    display: inline-block;
+    height: 15px;
+    width: 50px;
+    background-repeat: no-repeat;
+}
+.user-manager__list li a.users__shares {
+    background: url('../images/icons/e36-16.png');
+    display: inline-block;
+    height: 15px;
+    width: 50px;
+    background-repeat: no-repeat;
+}
+.user-manager__list li a span {
+    background: red none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: 8px;
+    margin-left: 22px;
+    padding: 0 4px;
+    text-align: center;
+}
+#comment-1 {
+    height: auto;
+}
+.comments-contents {
+    border: 1px solid #dedede;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+a.id-link {
+    cursor: alias;  
+}
+input.wp-forum__ajax_input {
+    padding: 0;
+    position: absolute;
+    right: 35px;
+}
+span.clear {
+    background: rgba(0, 0, 0, 0) url("../images/icons/Disk-16.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 15px;
+}
+a.gear {
+    background: rgba(0, 0, 0, 0) url("../images/SEO_cogwheels_setting-16.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    margin-left: 35px;
+    position: absolute;
+    top: 10px;
+    width: 17px;
+}
+span.loaders {
+    background: url('../images/BT_search-16.png');
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 245px;
+    top: 12px;
+    cursor: pointer;
+}
+span.loaders.true {
+    background: url('../images/4-1.gif');
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 245px;
+    top: 12px;
+    cursor: pointer;
+}
+span.loaders.settings {
+    background: rgba(0, 0, 0, 0) url("../images/4-1.gif") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: none;
+    height: 15px;
+    left: 85px;
+    position: absolute;
+    top: 5px;
+    width: 15px;
+}
+span.loaders.settings.true {
+    background: rgba(0, 0, 0, 0) url("../images/4-1.gif") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    left: 85px;
+    position: absolute;
+    top: 5px;
+    width: 15px;
+}
+p.error {
+    background: pink;
+    padding: 10px;
+    color: #fff;
+}
+#dashboard_right_now .main p.error.results-invalid {
+    margin: 0;
+    margin-top: -18px;
+}
+.label-action {
+    position: relative;
+}
+.users__comments-box, .users__replys-box,
+.users__likes-box, .users__shares-box {
+    background: gray none repeat scroll 0 0;
+    border: 1px solid gray;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    position: absolute;
+    top: 35px;
+    width: 120px;
+    display: none;
+}
+.label-id .id-link {
+    background: green none repeat scroll 0 0;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    font-size: 8px;
+    margin-left: 22px;
+    padding: 0 4px;
+    text-align: center;
+}
+.wp-forum__wrap #activity-widget #the-comment-list .avatar {
+    height: 50px;
+    width: 50px;
+}
+span.comments-date {
+    color: #000;
+    display: inline-block;
+    margin-bottom: 5px;   
+}
+.field.label-comments {
+    margin-right: 20px;
+    width: 20%;
+}
+.comments-hidden__none {
+    display: none !important;
+}
+.comments-post__id {
+    background: rgba(0, 0, 0, 0) url("../images/article-10-16.png") no-repeat scroll 0 0;
+    border: 1px solid #000;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+.wp-forums__roles {
+    margin-bottom: 30px;
+}
+.wp-forums__events {
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.wp-forums__events-actions {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+.wp-forums__submits {
+    position: relative; 
+}
+.wp-forum__wrap #activity-widget #latest-comments #the-comment-list .comment-item {
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.wp-forum__wrap #the-comment-list #comment-1 {
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.wp-forum__wrap .dashboard-profiles-wrap {
+    float: left;
+    width: 38%;
+}
+.wp-forum__wrap .dashboard-lefts-wrap {
+    border-left: 1px solid #dedede;
+    float: right;
+    height: 200px;
+    margin-top: -12px;
+    padding-left: 15px;
+    width: 60%;
+}
+a.comments-headers {
+    background: rgba(0, 0, 0, 0) url("../images/other_review_comment__-16.png") no-repeat scroll 0 0;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    height: 17px;
+    padding-left: 20px;
+    text-decoration: none !important;
+    width: 17px;
+}
+a.browse-profiles {
+    background: green none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    margin-top: 60px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+}
+.posts-input__title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 98%;
+}
+.posts-input__desc {
+    padding-bottom: 10px;
+    width: 98%;
+}
+.posts-input__title input {
+    width: 100%;
+}
+.posts-input__submit {
+    position: relative;
+}
+.posts-input__desc textarea {
+    height: 100px;
+    width: 100%;
+}
+span.loaders-posts-draft.true 
+{
+    background: rgba(0, 0, 0, 0) url("../images/4-1.gif") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    left: 100px;
+    position: absolute;
+    top: 7px;
+    width: 15px;
+}
